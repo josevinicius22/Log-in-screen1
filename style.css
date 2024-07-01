@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,html {
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+body{
+
+    min-height: 110vh;
+    background: black url(sources/pexels-pixabay-276517.jpg) no-repeat right center;
+    background-size: cover;
+}
+
+main{
+    background: #1d282ede;
+    width: 300px;
+    text-align: center;
+    box-shadow: rgba(223, 11, 11, 0.029) 2px 2px 2px 2px;
+    border-radius: 10px;
+    color: #DEDEDE;
+}
+main>h1{
+    text-align: center;
+    align-items: center;
+
+    
+}
+main>p{
+    padding: 10px;
+    font-size: 1.1rem;
+}
+form{
+    text-align: left;
+    padding-left: 3vh;
+
+    font-size: 1.1rem;
+}
+#idemail,#idpassword{
+    background-color: white;
+    margin-bottom: 1vh;
+    border: none;
+    border-radius: 0.5vh;
+    color: #1d282ede;
+    font-size: 1.1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.container{
+    width: 250px;
+    margin: 0;
+}
+
+.button-container{
+    border: none;
+    border-radius: 0.5vh;
+    color: white;
+    padding: 0.5vh;
+   
+    width: 250px; /* Define uma largura máxima para os botões */
+    text-align: center;
+
+}
+#entrar,#forgot{
+    cursor: pointer; 
+     margin-bottom: 1.5vh;
+     font-size: 1.1rem;
+     border: none;
+     border-radius: 0.5vh;
+     background: white;
+     color: #1d282ede;
+}
